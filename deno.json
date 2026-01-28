@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-env index.ts"
+  },
+  "imports": {
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2",
+    "resend": "https://esm.sh/resend@2.0.0",
+    "@google/genai": "npm:@google/genai"
+  }
+}
